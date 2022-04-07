@@ -1,5 +1,5 @@
 {
-    "name": "jnt/transferwise-php",
+    "name": "transferwise/transferwise-php",
     "description": "Wise PHP Library",
     "type": "library",
     "require": {
@@ -20,7 +20,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Jnt\\": "src/"
+            "TransferWise\\": "src/"
         }
     }
 }
