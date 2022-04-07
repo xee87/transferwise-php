@@ -1,0 +1,25 @@
+{
+    "name": "jnt/transferwise-php",
+    "description": "Wise PHP Library",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": ">=6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xee87",
+            "email": "zeshans87@live.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jnt\\": "src/"
+        }
+    }
+}
