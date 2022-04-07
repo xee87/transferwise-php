@@ -1,6 +1,6 @@
 <?php
 
-namespace TransferWise;
+namespace Jnt;
 
 class TestCase extends \PHPUnit\Framework\TestCase
 {

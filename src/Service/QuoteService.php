@@ -1,6 +1,6 @@
 <?php
 
-namespace TransferWise\Service;
+namespace Jnt\Service;
 
 class QuoteService extends Service
 {

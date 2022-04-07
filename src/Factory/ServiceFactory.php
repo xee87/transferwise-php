@@ -1,19 +1,19 @@
 <?php
 
-namespace TransferWise\Factory;
+namespace Jnt\Factory;
 
 class ServiceFactory
 {
     private $_client;
 
     private static $services = [
-        'profiles' => \TransferWise\Service\ProfileService::class,
-        'quotes' => \TransferWise\Service\QuoteService::class,
-        "recipient_accounts" => \TransferWise\Service\RecipientAccountService::class,
-        "transfers" => \TransferWise\Service\TransferService::class,
-        "validators" => \TransferWise\Service\ValidatorService::class,
-        "banks" => \TransferWise\Service\BankService::class,
-        "profileWebhooks" => \TransferWise\Service\ProfileWebhookService::class
+        'profiles' => \Jnt\Service\ProfileService::class,
+        'quotes' => \Jnt\Service\QuoteService::class,
+        "recipient_accounts" => \Jnt\Service\RecipientAccountService::class,
+        "transfers" => \Jnt\Service\TransferService::class,
+        "validators" => \Jnt\Service\ValidatorService::class,
+        "banks" => \Jnt\Service\BankService::class,
+        "profileWebhooks" => \Jnt\Service\ProfileWebhookService::class
     ];
 
     private $instances = [];

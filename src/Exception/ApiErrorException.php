@@ -1,6 +1,6 @@
 <?php
 
-namespace TransferWise\Exception;
+namespace Jnt\Exception;
 
 class ApiErrorException extends \Exception
 {

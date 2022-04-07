@@ -1,6 +1,6 @@
 <?php
 
-namespace TransferWise\Exception;
+namespace Jnt\Exception;
 
 class ValidationException extends \Exception
 {

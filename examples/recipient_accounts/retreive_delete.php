@@ -21,7 +21,7 @@ try {
 
     print_r($response);
 
-} catch (\TransferWise\Exception\AccessException $e) {
+} catch (\Jnt\Exception\AccessException $e) {
     echo "account must be deleted already";
 }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace TransferWise\Service;
+namespace Jnt\Service;
 
 class Service
 {
@@ -28,7 +28,7 @@ class Service
         $profile_id = $this->client->getProfileId();
 
         if (!$profile_id) {
-            throw new \TransferWise\Exception\InvalidArgumentException("missing profile id");
+            throw new \Jnt\Exception\InvalidArgumentException("missing profile id");
         }
 
         if (!array_key_exists("profile", $params)) {
@@ -67,7 +67,7 @@ class Service
      *
      * @param Int $profile_id Given profile id
      *
-     * @throws \TransferWise\Exception\InvalidArgumentException
+     * @throws \Jnt\Exception\InvalidArgumentException
      * @return Int Profile Id
      */
     protected function mustHaveProfileId($profile_id = false)
@@ -77,7 +77,7 @@ class Service
         }
 
         if (!$profile_id) {
-            throw new \TransferWise\Exception\InvalidArgumentException("missing profile id");
+            throw new \Jnt\Exception\InvalidArgumentException("missing profile id");
         }
 
         return $profile_id;
